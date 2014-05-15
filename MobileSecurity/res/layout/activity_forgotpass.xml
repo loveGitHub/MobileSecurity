@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#EAEAEA">
+    <RelativeLayout
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/title_bar_shadow">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical" >
+        
+        <TextView 
+            android:id="@+id/activity_information"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="arial"
+            android:layout_marginTop="20dp"
+            android:text="Retrieve Password"
+            android:textSize="20dp"/>
+        
+        
+        <TextView 
+            android:id="@+id/activity_information1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="arial"
+            android:layout_marginTop="20dp"
+            android:text="Enter your email and to receive instructions"
+            android:textSize="13dp"/>
+
+        <EditText
+            android:id="@+id/activity_login_etEmailid"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email"
+            android:fontFamily="arial"
+            android:inputType="textEmailAddress"
+            android:drawableLeft="@drawable/email" 
+            android:background="@drawable/border"
+            android:padding="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            >
+            <requestFocus />
+        </EditText>
+
+
+        
+        <Button
+            android:id="@+id/activity_send_password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="arial"
+            android:text="SEND"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_selector" />
+    </LinearLayout>
+
+    
+
+</RelativeLayout></RelativeLayout>

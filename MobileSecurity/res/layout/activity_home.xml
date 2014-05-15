@@ -1,0 +1,123 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#EAEAEA">
+    <RelativeLayout
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/title_bar_shadow">
+    <ScrollView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical" >
+        
+        <TextView 
+            android:id="@+id/activity_home"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="arial"
+            android:layout_marginTop="20dp"
+            android:text="Welcome to Home Screen"
+            android:textSize="20dp"/>
+        
+        <Button
+            android:id="@+id/activity_myKey_status"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="arial"
+            android:text="MyKey Status"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="50dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_selector" />
+        <Button
+            android:id="@+id/activity_change_password"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="arial"
+            android:text="Change password"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_selector" />
+        <Button
+            android:id="@+id/activity_change_hero"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="arial"
+            android:text="Change Hero"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_selector" />
+        <Button
+            android:id="@+id/activity_hidden_app_mode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="arial"
+            android:text="Hidden app mode"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_selector" />
+
+        <Button
+            android:id="@+id/lock_screen_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_selector"
+            android:fontFamily="arial"
+            android:text="Lock Screen Preferences"
+            android:textColor="#FFFFFF" />
+        
+        <Button
+            android:id="@+id/activity_app_under_protection"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="arial"
+            android:text="Apps Under Protections"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_selector" />
+        
+        <Button
+            android:id="@+id/lock_screen_2_img"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="arial"
+            android:text="Lock Screen (2)"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_selector" />
+        
+        <Button
+            android:id="@+id/lock_screen_4_img"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_selector"
+            android:fontFamily="arial"
+            android:text="Lock Screen (4)"
+            android:textColor="#FFFFFF" />
+        
+    </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout></RelativeLayout>

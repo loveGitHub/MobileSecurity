@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MobileSecurity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+
+    <string name="register"><u>Register</u>.</string>
+    <string name="fp"><u>Forgot Password ?</u>.</string>
+    
+ 	<string name="instructions">Add an image. Then press on image to drag it. Drop it on the grid.</string>
+     	<string name="instructions2">Swip between Images.</string>
+ 	
+    <string name="hello">Add an image. Then drag it onto the grid.</string>
+    <integer name="num_images">4</integer>
+    <integer name="num_columns">2</integer>
+
+</resources>

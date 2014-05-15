@@ -1,0 +1,169 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#EAEAEA" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/title_bar_shadow" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/activity_login_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/border"
+                    android:drawableLeft="@drawable/name"
+                    android:ems="10"
+                    android:fontFamily="arial"
+                    android:hint="Name"
+                    android:inputType="text"
+                    android:padding="2dp" >
+
+                    <requestFocus />
+                </EditText>
+
+                <EditText
+                    android:id="@+id/activity_login_etEmailid"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/border"
+                    android:drawableLeft="@drawable/email"
+                    android:ems="10"
+                    android:fontFamily="arial"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:padding="2dp" >
+                </EditText>
+
+                <EditText
+                    android:id="@+id/activity_login_etPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/border"
+                    android:drawableLeft="@drawable/password"
+                    android:ems="10"
+                    android:fontFamily="arial"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:padding="2dp" />
+
+                <EditText
+                    android:id="@+id/activity_login_confirmPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/border"
+                    android:drawableLeft="@drawable/password"
+                    android:ems="10"
+                    android:fontFamily="arial"
+                    android:hint="Confirm Password"
+                    android:inputType="textPassword"
+                    android:padding="2dp" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/add_hero_btn"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/plus_icon"
+                        android:fontFamily="arial"
+                        android:gravity="center"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical"
+                        android:text="Add Hero"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/activity_hero_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/border"
+                    android:drawableLeft="@drawable/name"
+                    android:ems="10"
+                    android:fontFamily="arial"
+                    android:hint="Hero Name"
+                    android:inputType="text"
+                    android:padding="2dp"
+                    android:visibility="gone" >
+                </EditText>
+
+                <EditText
+                	android:id="@+id/activity_hero_number"
+                	android:layout_width="match_parent"
+                	android:layout_height="wrap_content"
+                	android:layout_marginBottom="10dp"
+                	android:background="@drawable/border"
+                	android:drawableLeft="@drawable/name"
+                	android:ems="10"
+                	android:fontFamily="arial"
+                	android:hint="Hero Number"
+                	android:inputType="text"
+                	android:padding="2dp"
+                	android:visibility="gone" />
+
+                <EditText
+                    android:id="@+id/activity_login_my_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/border"
+                    android:drawableLeft="@drawable/name"
+                    android:ems="10"
+                    android:fontFamily="arial"
+                    android:hint="My Number"
+                    android:inputType="text"
+                    android:padding="2dp"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/activity_register_btn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/button_selector"
+                    android:fontFamily="arial"
+                    android:text="CREATE AN ACCOUNT"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>
